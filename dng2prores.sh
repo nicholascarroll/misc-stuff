@@ -40,7 +40,7 @@ SHOT=${1%/}
 # free space
 DNG_SIZE="$(du -s $SHOT | awk '{print $1}')"
 FREE_SPACE="$(df . | tail -1 | awk '{print $4}')"
-SPACE_NEEDED="$(($DNG_SIZE * 2000))"
+SPACE_NEEDED="$(($DNG_SIZE * 2))"
 
 if [ $SPACE_NEEDED -gt $FREE_SPACE ]
 then
