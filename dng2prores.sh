@@ -29,12 +29,16 @@ then
     echo "Prores clips will be written to " $(pwd)
     echo
 else
+    echo
     echo "Current directory is not writable. Exiting"
+    echo
     exit
 fi
 
+SHOT=${1%/}
+
 # free space
-DNG_SIZE="$(du -s /vids/reel1-proxy | awk '{print $1}')"
+DNG_SIZE="$(du -s $SHOT | awk '{print $1}')"
 FREE_SPACE="$(df . | tail -1 | awk '{print $4}')"
 SPACE_NEEDED="$(($DNG_SIZE * 2000))"
 
@@ -47,10 +51,6 @@ then
     exit 1
   fi
 fi
-
-
-SHOT=${1%/}
-echo $SHOT
 
 # Convert from CinemaDNG to ppm:
 TEMPY="$(mktemp -d)"
