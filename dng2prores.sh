@@ -72,7 +72,7 @@ do
     #     2 = Prores 422
     #     4 = Prores HQ
     # -r frame rate
-    ffmpeg -loglevel warning -thread_queue_size 512 -i $TEMPY/$SHOT"_00%04d.ppm" -i $SHOT_DIR/$SHOT.wav -r 30 -vcodec prores -profile:v 0 -acodec pcm_s16le ./$SHOT.mov
+    ffmpeg -r 30 -i $TEMPY/$SHOT"_00%04d.ppm" -i $SHOT_DIR/$SHOT.wav  -vcodec prores -profile:v 0 -acodec pcm_s16le ./$SHOT.mov
 
     rm $TEMPY/*
     ((SHOT_COUNTER++))
