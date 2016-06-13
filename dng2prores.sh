@@ -4,8 +4,7 @@
 #   Reel/BMPC4KNC_1_2016-05-23_0248_C0000/BMPC4KNC_1_2016-05-23_0248_C0000_######.dng
 # This script assumes they are in a format like that 
 
-# There is only one command line argument - the directory that the camera creates for the shot.
-# (in next version, this needs to be the parent directory ('reel').
+# There is only one command line argument - the directory that the camera creates for the shots ('reel').
 if [ "$1" == "" ]
 then
     echo "$0: Usage: dng2prores <path to DNG reel directory>. "
