@@ -20,6 +20,7 @@ fi
 
 
 CLEAN_ARG1=${1%/*}
+
 REEL_DIR="$(readlink -f $CLEAN_ARG1)"
 
 TOTAL_SHOTS="$(find $REEL_DIR -iname *.dng -printf "%h\n" | uniq | wc -l)"
@@ -42,7 +43,7 @@ fi
 SHOT_COUNTER=1
 for SHOT_DIR in $(find $REEL_DIR -name *.dng -printf "%h\n" | uniq)
 do
-    echo "Processing shot "$SHOT_COUNTER" of "$TOTAL_SHOTS
+    echo "Shot "$SHOT_COUNTER" of "$TOTAL_SHOTS
     
     SHOT="$(basename $SHOT_DIR)"
     # Verify enough free space
@@ -59,20 +60,23 @@ do
         exit 1
       fi
     fi
-    
     TEMPY="$(mktemp -d)"    
     # Convert each dng file to ppm
     find $SHOT_DIR -iname *.dng | parallel --no-notice --bar "dcraw -h -c {} > $TEMPY/{/.}.ppm" # -h means half size
+
+    echo "Writing "$(pwd)/$SHOT.mov
     # Build the ppms into a prores proxy file:
     # -profile flag values:
     #     0 = Prores Proxy
     #     1 = Prores LT
     #     2 = Prores 422
     #     4 = Prores HQ
-    echo "Writing "$(pwd)/$SHOT.mov
-    ffmpeg -loglevel warning -i $TEMPY/$SHOT"_00%04d.ppm" -c:v prores -profile:v 0 -c:a pcm_s16le ./$SHOT.mov
+    # -r frame rate
+    ffmpeg -loglevel warning -thread_queue_size 512 -i $TEMPY/$SHOT"_00%04d.ppm" -i $SHOT_DIR/$SHOT.wav -r 30 -vcodec prores -profile:v 0 -acodec pcm_s16le ./$SHOT.mov
+
     rm $TEMPY/*
     ((SHOT_COUNTER++))
+    echo
 done
 
 echo "Finished making Prores clips from "$REEL_DIR
