@@ -1,7 +1,7 @@
 ** Miscellaneous stuff
 
-*** nc-lwks.prefs
+*** lwks-nc.prefs
 My Lightworks NLE keybindings
 
-*** dng2prores
+*** dng2prores.sh
 Converts CinemaDNG to Prores Proxy
