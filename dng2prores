@@ -3,6 +3,7 @@
 # The camera stores the files with this file naming:
 #   Reel/BMPC4KNC_1_2016-05-23_0248_C0000/BMPC4KNC_1_2016-05-23_0248_C0000_######.dng
 # This script assumes they are in a format like that 
+# Script onl works on linux
 
 # There is only one command line argument - the directory that the camera creates for the shots ('reel').
 if [ "$1" == "" ]
