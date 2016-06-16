@@ -76,7 +76,7 @@ do
     # -r frame rate (if before the input, it is taken as input frame rate)
     ffmpeg -thread_queue_size 512 -loglevel warning -r 24 -i $TEMPY/$SHOT"_00%04d.ppm" -i $SHOT_DIR/$SHOT.wav  -vcodec prores -profile:v 0 -acodec pcm_s16le ./$SHOT.mov
 
-    rm $TEMPY/*
+    rm $TEMPY/*.ppm
     ((SHOT_COUNTER++))
     echo
 done
