@@ -64,7 +64,7 @@ do
     fi
     TEMPY="$(mktemp -d)"    
     # Convert each dng file to ppm
-    find $SHOT_DIR -iname *.dng | parallel --no-notice --bar "dcraw -h -c {} > $TEMPY/{/.}.ppm" # -h means half size
+    find $SHOT_DIR -iname *.dng | parallel --no-notice --bar "dcraw -w -h -c {} > $TEMPY/{/.}.ppm" # -h means half size
 
     echo "Writing "$(pwd)/$SHOT.mov
     # Build the ppms into a prores proxy file:
