@@ -1,7 +1,7 @@
 ** Miscellaneous stuff
 
 *** lwks-nc.prefs
-My Lightworks NLE keybindings
+My Lightworks NLE keybindings. The keys are laid out like on the console.
 
 *** dng2prores
-Converts CinemaDNG to Prores Proxy (Linux)
+Converts CinemaDNG to Prores Proxy (Linux only)
