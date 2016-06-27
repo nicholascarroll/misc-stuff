@@ -64,7 +64,11 @@ do
     fi
     TEMPY="$(mktemp -d)"    
     # Convert each dng file to ppm
-    find $SHOT_DIR -iname *.dng | parallel --no-notice --bar "dcraw -w -h -c {} > $TEMPY/{/.}.ppm" # -h means half size
+    find $SHOT_DIR -iname *.dng | parallel --no-notice --bar "dcraw -r 1 1 1 1 -n 100  -h -c {} > $TEMPY/{/.}.ppm"
+    # -h means half size
+    # -n is denoise and can be from 100 to 1000
+    # -o 0 means linear colourspace. default is sRGB
+    # -r 1 1 1 1 means no white balance. or use -w for the camera set wb.
 
     echo "Writing "$(pwd)/$SHOT.mov
     # Build the ppms into a prores proxy file:
