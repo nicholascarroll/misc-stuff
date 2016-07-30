@@ -1,5 +1,5 @@
 #!/bin/bash
-# For Blackmagic Production 4K DNG files. Converts to Prores, in the current directory
+# For Blackmagic Production 4K and URSA DNG files. Converts to Prores, in the current directory
 # The camera stores the files with this file naming:
 #   Reel/BMPC4KNC_1_2016-05-23_0248_C0000/BMPC4KNC_1_2016-05-23_0248_C0000_######.dng
 # This script assumes they are in a format like that 
