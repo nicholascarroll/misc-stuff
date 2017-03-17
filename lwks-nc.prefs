@@ -1,28 +1,80 @@
 [EditorPreferences]
+=261,262F=262,262R=262,263F=263,263R=263,264F=264,264R=264,101F=101,101R=101,102F=102,102R=102,111F=111,111R=111,112F=112,112R=112,113F=113,113R=113,114F=114,114R=114,119F=119,119R=119,120F=120,120R=120,121F=121,121R=121,301F=301,301R=301,302F=302,302R=302,303F=303,303R=303,304F=304,304R=304,305F=305,305R=305,306F=306,306R=306,310F=310,310R=310,311F=311,311R=311,312F=312,312R=312,313F=313,313R=313,314F=314,314R=314,315F=315,315R=315,316F=316,316R=316,317F=317,317R=317,320F=320,320R=320,321F=321,321R=321,322F=322,322R=322,323F=323,323R=323,324F=324,324R=324,325F=325,325R=325,326F=326,326R=326,327F=327,327R=327,340F=340,340R=340,341F=341,341R=341,342F=342,342R=342,343F=343,343R=343,344F=344,344R=344,345F=345,345R=345,350F=350,350R=350,351F=351,351R=351,352F=352,352R=352,353F=353,353R=353,409F=409,409R=409
+Audio Crossfades : Position=(89,369)
+Audio Mixer Position=(223,328)
 AvailableIO=System Sound
 BITC panel position=(888.000000,205.000000)
-Clipboard : Auto display=false
-Cue panel position=(669.000000,376.000000)
+Bin Count PD050ZG0=4
+Bin Count PD0514X1=9
+Clipboard : Auto display=true
+Cue panel position=(1066.000000,439.000000)
 Cue panel size=(374.000000,396.000000)
-Cue panel sort column=0
+Cue panel sort column=2
 Current UserName=nicholas_carroll
-Default position : RecordTimeline=(112,73)
-Default position : RecordViewer=(546,297)
-Default position : SourceViewer=(282,184)
-Default size : RecordTimeline=(1107,152)
-Default size : RecordViewer=(673,442)
-Default size : SourceViewer=(673,442)
+Database View : Set As Default=1
+Default position : ClipboardTile=(1313,592)
+Default position : RecordTimeline=(124,51)
+Default position : RecordViewer=(480,341)
+Default position : SourceViewer=(1049,488)
+Default size : RecordTimeline=(1398,265)
+Default size : RecordViewer=(826,528)
+Default size : SourceViewer=(497,343)
+Default tile size=ISPHugeThumb
 Duration Label Type=Film Frames
-Effect : Favourites=F60V300Y,F[0O8AHT,FZ0W03M3,FZ0W03M2,F60V1E8T,FZ0W03R9
-Effect Panel : Last category=Keying=V
+EDL Wipe CodesCMX=1F=001,1R=001,2F=002,2R=002,3F=003,3R=003,4F=004,4R=004,5F=005,5R=005,6F=006,6R=006,23F=023,23R=023,24F=024,24R=024,25F=025,25R=025,26F=026,26R=026,7F=007,7R=007,8F=008,8R=008,21F=021,21R=021,22F=022,22R=022,45F=045,45R=045,46F=046,46R=046,41F=041,41R=041,42F=042,42R=042,43F=043,43R=043,61F=061,61R=061,62F=062,62R=062,63F=063,63R=063,64F=064,64R=064,65F=065,65R=065,66F=066,66R=066,67F=067,67R=067,68F=068,68R=068,201F=201,201R=201,202F=202,202R=202,203F=203,203R=203,204F=204,204R=204,205F=205,205R=205,206F=206,206R=206,207F=207,207R=207,221F=221,221R=221,222F=222,222R=222,223F=223,223R=223,224F=224,224R=224,241F=241,241R=241,242F=242,242R=242,243F=243,243R=243,244F=244,244R=244,211F=211,211R=211,212F=212,212R=212,231F=231,231R=231,232F=232,232R=232,233F=233,233R=233,234F=234,234R=234,213F=213,213R=213,225F=225,225R=225,226F=226,226R=226,227F=227,227R=227,228F=228,228R=228,245F=245,245R=245,246F=246,246R=246,251F=251,251R=251,252F=252,252R=252,253F=253,253R=253,254F=254,254R=254,261F=261,261R
+EDL alphanum startreel=901
+EDL audio comment=COMMENT: AUDIO MAPPING
+EDL audio comments=1
+EDL combine dissolves=0
+EDL default file=/home/nick/Lightworks/Lists/
+EDL default reelid=000
+EDL dissolve comments=0
+EDL dumpreel file=*.dmp
+EDL dumpreel handle=1.000000
+EDL dumpreel id=900
+EDL excalibur style=0
+EDL force_clean=1
+EDL fx as comments=1
+EDL inhibit black=0
+EDL keep xfades=1
+EDL lift3600=0
+EDL list reels=0
+EDL merge chans=1
+EDL output format=0
+EDL output path=/home/nick/Lightworks/Lists/
+EDL override alphanum=0
+EDL pad reelid=0
+EDL preread=0
+EDL record timecode=30
+EDL recorder reelid=PREREAD
+EDL remove comments=0
+EDL shotname as reel=0
+EDL sort mode=0
+EDL split cut/dissolve pairs=0
+EDL split edits=0
+EDL use audio=0
+EDL use base zero=1
+EDL use clipname list=0
+EDL use print ghost=0
+EDL varispeed comment=COMMENT:   << SPEED CHANGE >> 
+EDL varispeed comments=0
+Effect : Favourites=F60V300Y,F[0O8AHT,FZ0W03M3,FZ0W03M2,F60V1E8T,FZ0W03R9,F00L0CCJ
+Effect Panel : AutoConfig=false
+Effect Panel : Last category=DVEs=V
+Effect Panel : Last used in Assistant Apps=V (Unit)=2
+Effect Panel : Last used in Colour=V (Unit)=2
+Effect Panel : Last used in DVEs=V (Unit)=2
 Effect Panel : Last used in Keying=V (Unit)=2
+Effect Panel : Last used in Mixes=V (Unit)=2
+Effect Panel : Last used in Titles=V (Unit)=2
+Effect Panel : Last used in Vignette & Crop=V (Unit)=2
 Effect Panel : Pinned=0
 Effect Panel : Position=(129.000000,152.000000)
 Effect Panel : Size=(350.000000,550.000000)
-Effect Panel : V Category =Keying
-Effect graph tool size=(780,290)
-Export Folder=/Users/nick/gtest/
-Export Format=Image sequence
+Effect Panel : V Category =DVEs
+Effect graph tool size=(1195,624)
+Export Folder=/media/nick/DISK_IMG/
+Export Format=YouTube
 Export Options : AAF 24_AudioHandle=1
 Export Options : AAF 24_AudioSampleRate=[A][0] < Invalid >
 Export Options : AAF 24_AudioSampleSize=1
@@ -61,6 +113,27 @@ Export Options : AVI 24_TrackOpts=4
 Export Options : AVI 24_UID=28
 Export Options : AVI 24_UseMarks=0
 Export Options : AVI 24_Version=1
+Export Options : AVI 30_AspectRatio=2
+Export Options : AVI 30_AudioSampleRate=[A][6] 32 kHz
+Export Options : AVI 30_AudioSampleSize=1
+Export Options : AVI 30_BitRate=50
+Export Options : AVI 30_BitsPerComponent=8
+Export Options : AVI 30_Compression=844715353
+Export Options : AVI 30_ExportAtFilmRate=1
+Export Options : AVI 30_Ext=AVI
+Export Options : AVI 30_FrameRate=30M
+Export Options : AVI 30_Location=0
+Export Options : AVI 30_Progressive=0
+Export Options : AVI 30_StereoMode=LeftEye
+Export Options : AVI 30_TrackOpts=0
+Export Options : AVI 30_UID=15
+Export Options : AVI 30_UseMarks=0
+Export Options : AVI 30_Version=1
+Export Options : EDL 30_audiocomments=1
+Export Options : EDL 30_cvt=0
+Export Options : EDL 30_fmt=0
+Export Options : EDL 30_rate=30
+Export Options : EDL 30_sort=0
 Export Options : H.264/MP4 24_AspectRatio=2
 Export Options : H.264/MP4 24_AudioSampleRate=[A][8] 48 kHz
 Export Options : H.264/MP4 24_AudioSampleSize=1
@@ -77,6 +150,22 @@ Export Options : H.264/MP4 24_TrackOpts=4
 Export Options : H.264/MP4 24_UID=28
 Export Options : H.264/MP4 24_UseMarks=0
 Export Options : H.264/MP4 24_Version=1
+Export Options : H.264/MP4 30_AspectRatio=2
+Export Options : H.264/MP4 30_AudioSampleRate=[A][8] 48 kHz
+Export Options : H.264/MP4 30_AudioSampleSize=1
+Export Options : H.264/MP4 30_BitRate=50
+Export Options : H.264/MP4 30_BitsPerComponent=8
+Export Options : H.264/MP4 30_Compression=875967051
+Export Options : H.264/MP4 30_ExportAtFilmRate=1
+Export Options : H.264/MP4 30_Ext=mp4
+Export Options : H.264/MP4 30_FrameRate=30
+Export Options : H.264/MP4 30_Location=0
+Export Options : H.264/MP4 30_Progressive=0
+Export Options : H.264/MP4 30_StereoMode=LeftEye
+Export Options : H.264/MP4 30_TrackOpts=0
+Export Options : H.264/MP4 30_UID=28
+Export Options : H.264/MP4 30_UseMarks=0
+Export Options : H.264/MP4 30_Version=1
 Export Options : Image sequence 24_Anamorphic=0
 Export Options : Image sequence 24_BitsPerComponent=8
 Export Options : Image sequence 24_CodecSettings=
@@ -89,6 +178,26 @@ Export Options : Image sequence 24_StereoMode=LeftEye
 Export Options : Image sequence 24_UseMarks=0
 Export Options : Image sequence 24_Version=4
 Export Options : Image sequence 24_VideoFormatUID=28
+Export Options : Image sequence 30_Anamorphic=0
+Export Options : Image sequence 30_BitsPerComponent=8
+Export Options : Image sequence 30_CodecSettings=
+Export Options : Image sequence 30_CreateFolders=true
+Export Options : Image sequence 30_FrameRate=30
+Export Options : Image sequence 30_HandleSize=0
+Export Options : Image sequence 30_ImageExt=DPX
+Export Options : Image sequence 30_Progressive=1
+Export Options : Image sequence 30_StereoMode=LeftEye
+Export Options : Image sequence 30_UseMarks=0
+Export Options : Image sequence 30_Version=4
+Export Options : Image sequence 30_VideoFormatUID=27
+Export Options : Lightworks archive 24_linked=false
+Export Options : Lightworks archive 24_overwrite=3
+Export Options : Lightworks archive 24_pics=false
+Export Options : Lightworks archive 24_snd=false
+Export Options : Lightworks archive 30_linked=false
+Export Options : Lightworks archive 30_overwrite=3
+Export Options : Lightworks archive 30_pics=false
+Export Options : Lightworks archive 30_snd=false
 Export Options : Vimeo 24_AspectRatio=2
 Export Options : Vimeo 24_AudioSampleRate=[A][8] 48 kHz
 Export Options : Vimeo 24_AudioSampleSize=1
@@ -114,7 +223,6 @@ Export Options : Vimeo 25_BitRate=50
 Export Options : Vimeo 25_BitsPerComponent=8
 Export Options : Vimeo 25_Compression=875967051
 Export Options : Vimeo 25_ExportAtFilmRate=1
-Export Options : Vimeo 25_Ext=
 Export Options : Vimeo 25_FrameRate=25
 Export Options : Vimeo 25_Location=0
 Export Options : Vimeo 25_Progressive=1
@@ -123,8 +231,41 @@ Export Options : Vimeo 25_TrackOpts=0
 Export Options : Vimeo 25_UID=28
 Export Options : Vimeo 25_Upload=1
 Export Options : Vimeo 25_UseMarks=0
-Export Options : Vimeo 25_Username=
 Export Options : Vimeo 25_Version=1
+Export Options : Vimeo 30_AspectRatio=2
+Export Options : Vimeo 30_AudioSampleRate=[A][8] 48 kHz
+Export Options : Vimeo 30_AudioSampleSize=1
+Export Options : Vimeo 30_BitRate=50
+Export Options : Vimeo 30_BitsPerComponent=8
+Export Options : Vimeo 30_Compression=875967051
+Export Options : Vimeo 30_ExportAtFilmRate=1
+Export Options : Vimeo 30_Ext=
+Export Options : Vimeo 30_FrameRate=30
+Export Options : Vimeo 30_Location=0
+Export Options : Vimeo 30_Progressive=1
+Export Options : Vimeo 30_StereoMode=LeftEye
+Export Options : Vimeo 30_TrackOpts=0
+Export Options : Vimeo 30_UID=28
+Export Options : Vimeo 30_Upload=1
+Export Options : Vimeo 30_UseMarks=0
+Export Options : Vimeo 30_Username=
+Export Options : Vimeo 30_Version=1
+Export Options : XDCAM HD 30_AspectRatio=2
+Export Options : XDCAM HD 30_AudioSampleRate=[A][8] 48 kHz
+Export Options : XDCAM HD 30_AudioSampleSize=1
+Export Options : XDCAM HD 30_BitRate=50
+Export Options : XDCAM HD 30_BitsPerComponent=8
+Export Options : XDCAM HD 30_Compression=845702276
+Export Options : XDCAM HD 30_ExportAtFilmRate=1
+Export Options : XDCAM HD 30_Ext=mxf
+Export Options : XDCAM HD 30_FrameRate=30M
+Export Options : XDCAM HD 30_Location=0
+Export Options : XDCAM HD 30_Progressive=0
+Export Options : XDCAM HD 30_StereoMode=LeftEye
+Export Options : XDCAM HD 30_TrackOpts=4
+Export Options : XDCAM HD 30_UID=28
+Export Options : XDCAM HD 30_UseMarks=0
+Export Options : XDCAM HD 30_Version=1
 Export Options : YouTube 24_AspectRatio=2
 Export Options : YouTube 24_AudioSampleRate=[A][8] 48 kHz
 Export Options : YouTube 24_AudioSampleSize=1
@@ -151,7 +292,7 @@ Export Options : YouTube 30_BitsPerComponent=8
 Export Options : YouTube 30_Compression=875967051
 Export Options : YouTube 30_ExportAtFilmRate=1
 Export Options : YouTube 30_Ext=
-Export Options : YouTube 30_FrameRate=30M
+Export Options : YouTube 30_FrameRate=30
 Export Options : YouTube 30_Location=0
 Export Options : YouTube 30_Progressive=1
 Export Options : YouTube 30_StereoMode=LeftEye
@@ -161,39 +302,58 @@ Export Options : YouTube 30_Upload=0
 Export Options : YouTube 30_UseMarks=0
 Export Options : YouTube 30_Username=
 Export Options : YouTube 30_Version=1
-FX Panel Position=(112.000000,362.000000)
-FX Panel Size=(418.000000,331.000000)
-FileBrowser size=(795,571)
-FileBrowser sort key=date
-Filecard size (shot)=(562,396)
+FX Panel Position=(124.000000,252.000000)
+FX Panel Size=(569.000000,589.000000)
+FileBrowser size=(1005,535)
+FileBrowser sort key=name
+Filecard size (edit)=(340,280)
+Filecard size (shot)=(943,394)
+Fx Panel : 3D DVE=0
 Fx Panel : Ale_ChromaKey=0
 Fx Panel : Blend=0
 Fx Panel : Chromakey=0
+Fx Panel : Colour Correction=0
 Fx Panel : Colour Matte=0
+Fx Panel : Colour Tint=0
+Fx Panel : DVE=0
+Fx Panel : Greyscale=0
 Fx Panel : INK=0
 Fx Panel : INK1=0
 Fx Panel : INKorig=0
+Fx Panel : Titles=0
 Fx Panel : Viewer=0
 Fx Panel : ViewerTool=0
-Gallery : Last Bin=GZ1Z0000
-Gallery : Posn=(221,269)
-Gallery : Size=(934,375)
-Gallery Default View=Hybrid
+Fx Panel : cinco=1
+Fx Panel : cuatro=1
+Fx Panel : dos=1
+Fx Panel : tres=1
+Fx Panel : uno=1
+Gallery : Last Bin=GZ1Z0002
+Gallery : Posn=(91,72)
+Gallery : Size=(953,749)
+Gallery : Table Columns=name,chans,Duration,description,notes,
+Gallery : Table thumb height rows=3
+Gallery Default View=Image
+Gallery auto position=false
+Gallery splitter position=92
 HardwareIODevice=System Sound
-Import Folder=/Users/nick/Desktop/gstest-render/
+Import : Detect image sequences=true
+Import Folder=/vids/naturaleando-con-armando/2017302/
 Import Mode=0
-Import/Export filebrowser size=(795.000000,571.000000)
+Import/Export filebrowser size=(1005.000000,535.000000)
 Initial Key Mapping=Selected
-Key assignment panel position=(114.000000,14.000000)
-Key assignment panel size=(1010.000000,727.000000)
+Key assignment panel position=(67.000000,80.000000)
+Key assignment panel size=(1421.000000,715.000000)
 Key assignment panel sort column=1
-Lightworks window WH=(1238,755)
-Lightworks window XY=(42,1)
+Last transition=F60V1XUE,eCentredHere,30
+Lightworks window WH=(1555,876)
+Lightworks window XY=(45,24)
 Lightworks window maximised=true
 Lightworks window titlebar=1
 Magnifier height=337
 Magnifier level=4
 Magnifier width=428
+Menu (CompoundEffectPanel > 3D DVE)=ExpandedGroupItem
 Menu (CompoundEffectPanel > Add > Colour (Presets))=CompressedGroupItem
 Menu (CompoundEffectPanel > Add > Colour)=CompressedGroupItem
 Menu (CompoundEffectPanel > Add > DVE (Presets))=CompressedGroupItem
@@ -208,14 +368,22 @@ Menu (CompoundEffectPanel > Add > Stereo 3D)=CompressedGroupItem
 Menu (CompoundEffectPanel > Add > Stylize)=CompressedGroupItem
 Menu (CompoundEffectPanel > Add > Titles)=CompressedGroupItem
 Menu (CompoundEffectPanel > Add > Vignette & Crop)=CompressedGroupItem
+Menu (CompoundEffectPanel > Colour Correction)=ExpandedGroupItem
+Menu (CompoundEffectPanel > Colour Temperature)=ExpandedGroupItem
+Menu (CompoundEffectPanel > DVE)=ExpandedGroupItem
+Menu (CompoundEffectPanel > Greyscale)=ExpandedGroupItem
 Menu (CompoundEffectPanel > INK)=ExpandedGroupItem
 Menu (CompoundEffectPanel > MINK)=ExpandedGroupItem
+Menu (CompoundEffectPanel > Roll)=ExpandedGroupItem
 Menu (CompoundEffectPanel > ViewerTool)=ExpandedGroupItem
 Menu (CompoundEffectPanel > core)=ExpandedGroupItem
+Menu (CuePanel > Cue Commands)=ExpandedGroupItem
 Menu (DriveListButton > Local Drives)=ExpandedGroupItem
+Menu (DriveListButton > Network)=ExpandedGroupItem
 Menu (DriveListButton > Remote Drives)=ExpandedGroupItem
+Menu (DriveListButton > Removable Drives)=ExpandedGroupItem
 Menu (DriveListButton > SHORTCUTS)=ExpandedGroupItem
-Menu (ExportGroup > Backup)=CompressedGroupItem
+Menu (ExportGroup > Backup)=ExpandedGroupItem
 Menu (ExportGroup > Camera formats)=CompressedGroupItem
 Menu (ExportGroup > Interchange)=ExpandedGroupItem
 Menu (ExportGroup > Media files)=ExpandedGroupItem
@@ -225,71 +393,141 @@ Menu (FileBrowser > ALE Options)=ExpandedGroupItem
 Menu (FileBrowser > Audio-only media)=ExpandedGroupItem
 Menu (FileBrowser > Video)=ExpandedGroupItem
 Menu (ProjectManager > Bin Commands)=ExpandedGroupItem
+Menu (ProjectManager > Copy to > Project)=ExpandedGroupItem
+Menu (ProjectManager > Export > Backup)=CompressedGroupItem
+Menu (ProjectManager > Export > Camera formats)=CompressedGroupItem
+Menu (ProjectManager > Export > Interchange)=CompressedGroupItem
+Menu (ProjectManager > Export > Media files)=ExpandedGroupItem
+Menu (ProjectManager > Export > Targets)=ExpandedGroupItem
 Menu (ProjectManager > Move to > Project)=ExpandedGroupItem
 Menu (ProjectManager > View Commands)=ExpandedGroupItem
 Menu (ProjectNavigator > Ordering)=ExpandedGroupItem
+Menu (ProjectNavigator > Today)=ExpandedGroupItem
 Menu (ProjectNavigator > amp)=ExpandedGroupItem
+Menu (ProjectNavigator > habia un sabio rey)=ExpandedGroupItem
 Menu (ScopePanel > Vectorscope Commands)=ExpandedGroupItem
 Menu (ScopePanel > Waveform Commands)=ExpandedGroupItem
+Menu (TrackButton > Clip Commands)=CompressedGroupItem
+Menu (TrackButton > Edit Commands)=ExpandedGroupItem
+Menu (TrackButton > Timeline Commands)=ExpandedGroupItem
+Menu (TrackButton > Track Commands)=ExpandedGroupItem
 Menu (celstrip > Add > Colour (Presets))=CompressedGroupItem
 Menu (celstrip > Add > Colour)=ExpandedGroupItem
-Menu (celstrip > Add > DVE (Presets))=CompressedGroupItem
-Menu (celstrip > Add > DVEs)=CompressedGroupItem
+Menu (celstrip > Add > DVE (Presets))=ExpandedGroupItem
+Menu (celstrip > Add > DVEs)=ExpandedGroupItem
 Menu (celstrip > Add > Favourites)=ExpandedGroupItem
 Menu (celstrip > Add > Keying)=ExpandedGroupItem
 Menu (celstrip > Add > Lower Thirds)=CompressedGroupItem
-Menu (celstrip > Add > Masks)=CompressedGroupItem
+Menu (celstrip > Add > Masks)=ExpandedGroupItem
 Menu (celstrip > Add > Mattes)=CompressedGroupItem
 Menu (celstrip > Add > Mixes)=CompressedGroupItem
 Menu (celstrip > Add > Stereo 3D)=CompressedGroupItem
-Menu (celstrip > Add > Stylize)=CompressedGroupItem
+Menu (celstrip > Add > Stylize)=ExpandedGroupItem
 Menu (celstrip > Add > Titles)=CompressedGroupItem
-Menu (celstrip > Add > Vignette & Crop)=CompressedGroupItem
+Menu (celstrip > Add > Vignette & Crop)=ExpandedGroupItem
+Menu (celstrip > Alternate clips)=ExpandedGroupItem
 Menu (celstrip > Edit Commands)=CompressedGroupItem
 Menu (celstrip > Effects)=ExpandedGroupItem
+Menu (celstrip > Export > Backup)=CompressedGroupItem
+Menu (celstrip > Export > Camera formats)=CompressedGroupItem
+Menu (celstrip > Export > Interchange)=CompressedGroupItem
+Menu (celstrip > Export > Media files)=CompressedGroupItem
+Menu (celstrip > Export > Targets)=ExpandedGroupItem
 Menu (celstrip > Source Clip)=ExpandedGroupItem
 Menu (celstrip > Timeline Commands)=ExpandedGroupItem
+Menu (celstrip > Transition)=ExpandedGroupItem
+Menu (celstrip Cut > Add > Colour (Presets))=CompressedGroupItem
+Menu (celstrip Cut > Add > Colour)=ExpandedGroupItem
+Menu (celstrip Cut > Add > DVE (Presets))=CompressedGroupItem
+Menu (celstrip Cut > Add > DVEs)=CompressedGroupItem
+Menu (celstrip Cut > Add > Favourites)=ExpandedGroupItem
+Menu (celstrip Cut > Add > Keying)=CompressedGroupItem
+Menu (celstrip Cut > Add > Lower Thirds)=CompressedGroupItem
+Menu (celstrip Cut > Add > Masks)=CompressedGroupItem
+Menu (celstrip Cut > Add > Mattes)=CompressedGroupItem
+Menu (celstrip Cut > Add > Mixes)=CompressedGroupItem
+Menu (celstrip Cut > Add > Stereo 3D)=CompressedGroupItem
+Menu (celstrip Cut > Add > Stylize)=CompressedGroupItem
+Menu (celstrip Cut > Add > Titles)=CompressedGroupItem
+Menu (celstrip Cut > Add > Vignette & Crop)=CompressedGroupItem
+Menu (celstrip Cut > Edit Commands)=CompressedGroupItem
+Menu (celstrip Cut > Effects)=ExpandedGroupItem
+Menu (celstrip Cut > Source Clip)=CompressedGroupItem
+Menu (celstrip Cut > Timeline Commands)=CompressedGroupItem
+Menu (celstrip Cut > Transition)=CompressedGroupItem
+Menu (celstrip Cut > Transitions)=ExpandedGroupItem
 Menu (stripv > Edit Commands)=ExpandedGroupItem
 Menu (stripv > Timeline Commands)=ExpandedGroupItem
+Menu (tilev > Export > Backup)=CompressedGroupItem
+Menu (tilev > Export > Camera formats)=CompressedGroupItem
+Menu (tilev > Export > Interchange)=ExpandedGroupItem
+Menu (tilev > Export > Media files)=CompressedGroupItem
+Menu (tilev > Export > Targets)=ExpandedGroupItem
 Menu (viewer > Edit Commands)=ExpandedGroupItem
 Menu (viewer > Export > Backup)=CompressedGroupItem
-Menu (viewer > Export > Camera formats)=CompressedGroupItem
-Menu (viewer > Export > Interchange)=CompressedGroupItem
+Menu (viewer > Export > Camera formats)=ExpandedGroupItem
+Menu (viewer > Export > Interchange)=ExpandedGroupItem
 Menu (viewer > Export > Media files)=ExpandedGroupItem
 Menu (viewer > Export > Targets)=ExpandedGroupItem
 Menu (viewer > Viewer Commands)=ExpandedGroupItem
+MixerBypass=2
 New Project : Camera speed=30
-New Project : Default auto flag=true
+New Project : Default auto flag=false
 New Project : Default frame rate=30
 New Project : Last Project/Users/nick/Lightworks/Projects/=PZ0W03RB
-New Project : Output format=6|0|1920|1080|8|2|4|4|
+New Project : Last Project/home/nick/Lightworks/Projects/=PD051C54
+New Project : Last archive path=/vids/nakuma/cuevasproxy/
+New Project : Output format=6|0|1920|1080|8|2|5|4|
 Play controls=2
-Project Browser : Height=0.696689
-Project Browser : Width=0.363489
+Preferences file path=/home/nick/Documents/
+Project Browser : Height=0.694064
+Project Browser : Width=0.362701
 ProjectCard tab=Tasks
-ScopePanel : position=(50,95)
+ScopePanel : position=(124,348)
+Search : Attrib count=8
+Search : Contents=0
+Search : Whole words only=false
+Search : edit=true
+Search : shot=true
+Show debug window=false
 Stripview : Keyframe display=2
+Stripview : Show Audio Waveforms=PreLevels
+Stripview : Transition length=6
+Stripview text : edit=Reel,LenFrames,Speed
+Sync Group Tile Size=3
+Time Type : ELT_Edit=edit
 Time Type : ELT_Shot=strip
 Tooltips=1
 Trimview enabled=false
+UI : Hinted 10=true
+UI : Hinted 11=true
+UI : Hinted 12=true
+UI : Hinted 14=true
+UI : Hinted 2=true
 UI : Hinted 5=true
 UI : Show hints=false
-UI : Wallpaper=/Applications/Lightworks.app/Contents/MacOS/../Resources/Images/bg-1280x800.png
+UI : Wallpaper=/usr/share/lightworks/Images/bg-1680x1050.png
 UI : Window colour=1316377
+Varispeed history=99 110 97 
+Vectorscope minimized=1
+Video Transitions : Position=(373,17)
 Viewer Label Display=Primary T/C
-Viewer Size=(620,348)
+Viewer Size=(444,249)
+Waveform minimized=0
 Waveform trace arrangement=2
 WelcomePanel : Count=6
 
 [KeyAssignments2]
-true:ConsoleMapper:0x10000001:0x005C::::
-true:ConsoleMapper:0x10000002:0x005D::::
+true:ConsoleMapper:0x10000001:0x0008::::
+true:ConsoleMapper:0x10000002:0x005C::::
 true:ConsoleMapper:0x10000003:0x0075::::
-true:ConsoleMapper:0x10000004:0x0008::::
+true:ConsoleMapper:0x10000004:0x8000046::::
 true:ConsoleMapper:0x10000005:0x0070::::
-true:ConsoleMapper:0x10000006:0x003D::::
+true:ConsoleMapper:0x10000006:0x8000045::::
 true:ConsoleMapper:0x10000007:0x006D::::
+true:ConsoleMapper:0x10000007:0x8000051::::
 true:ConsoleMapper:0x10000008:0x006E::::
+true:ConsoleMapper:0x10000008:0x8000049::::
 true:ConsoleMapper:0x10000009:0x006F::::
 true:ConsoleMapper:0x1000000A:0x0069::::
 true:ConsoleMapper:0x1000000B:0x006C::::
@@ -300,56 +538,57 @@ true:ConsoleMapper:0x1000000F:0x800004D::::
 true:ConsoleMapper:0x10000010::0x0020:0x0070:T:
 true:ConsoleMapper:0x10000011::0x0020:0x006F:T:
 true:ConsoleMapper:0x10000012::0x0020:0x0069:T:
+true:ConsoleMapper:0x10000015:0x8000047::::
 true:ConsoleMapper:0x10000015::0x0020:0x006E:T:
-true:ConsoleMapper:0x10000017:0x0058::::
 false:ConsoleMapper:0x10000017::0x0000:0x0000:T:
+true:ConsoleMapper:0x10000017::0x0020:0x8000045:T:
+true:ConsoleMapper:0x1000001B:0x800004F::::
 true:ConsoleMapper:0x1000001B::0x0020:0x006D:T:
 true:ConsoleMapper:0x1000001D::0x0020:0x0075:T:
 true:ConsoleMapper:0x1000001E:0x002C::::
 true:ConsoleMapper:0x1000001F:0x002E::::
 true:ConsoleMapper:0x10000025:0x10005A::::
-true:ConsoleMapper:0x10000025::0x0020:0x0008:T:
+true:ConsoleMapper:0x10000025::0x0020:0x8000046:T:
 true:ConsoleMapper:0x10000027::0x0020:0x002C:T:
 true:ConsoleMapper:0x10000028::0x0020:0x002E:T:
 true:ConsoleMapper:0x1000002D:0x110005A::::
-true:ConsoleMapper:0x1000002D::0x0020:0x005C:T:
-true:ConsoleMapper:0x1000002E::0x0020:0x005D:T:
+true:ConsoleMapper:0x1000002D::0x0020:0x0008:T:
+true:ConsoleMapper:0x1000002E::0x0020:0x005C:T:
 false:ConsoleMapper:0x34000001:0x900004B::::
 false:ConsoleMapper:0x34000002:0x900004D::::
+true:GlobalCommands:"AddAudioTrack":0x4000061::::
+true:GlobalCommands:"AddVideoTrack":0x4000076::::
+true:GlobalCommands:"AlignMarks":0x0041::::
 true:GlobalCommands:"Audio Mix Panel":0x2000041::::
 true:GlobalCommands:"Audio Transitions Panel":0x2000058::::
 true:GlobalCommands:"Batch Import":0x900003B::::
 true:GlobalCommands:"Configure current effect":0x100045::::
-true:GlobalCommands:"Create cue panel":0x2000043::::
-true:GlobalCommands:"Gallery Next":0x0066::::
+true:GlobalCommands:"Create cue panel":0x2000050::::
+true:GlobalCommands:"FreezeFrame":0x0066::::
 true:GlobalCommands:"Gallery Next":0x8000050::::
-true:GlobalCommands:"Gallery prev":0x0062::::
 true:GlobalCommands:"Gallery prev":0x8000048::::
-true:GlobalCommands:"GoToForum":0x8000051::::
-true:GlobalCommands:"LastTransition":0x0076::::
-true:GlobalCommands:"Make Effect Authoring Panel":0x8000043::::
 true:GlobalCommands:"MarkSeg":0x005D::::
-true:GlobalCommands:"Next keyframe":0xA000048::::
+true:GlobalCommands:"Next keyframe":0xC00004D::::
 true:GlobalCommands:"PlayFasterFwd":0x003B::::
 true:GlobalCommands:"PlayFasterRev":0x0068::::
-true:GlobalCommands:"Prev keyframe":0xA000050::::
+true:GlobalCommands:"Prev keyframe":0xC00004B::::
 true:GlobalCommands:"PreviousRoom":0x4000009::::
 true:GlobalCommands:"QueryNudgeBackwards":0x8000002D::::
-true:GlobalCommands:"QueryNudgeForwards":0x8000002B::::
 true:GlobalCommands:"ReplaceClipboard":0x0067::::
-true:GlobalCommands:"SHowProjectCard":0x8000047::::
+true:GlobalCommands:"SaveCurrentFrame":0x2000053::::
 true:GlobalCommands:"Searchcard":0x100046::::
-true:GlobalCommands:"Show timecode calculator":0x0043::::
+true:GlobalCommands:"Searchcard":0x2000046::::
+true:GlobalCommands:"Show timecode calculator":0x2000043::::
 true:GlobalCommands:"ShowFileCard":0x100049::::
-true:GlobalCommands:"ShowLayouts":0x800004F::::
-true:GlobalCommands:"ShowRackList":0x100044::::
+true:GlobalCommands:"ShowRackList":0x2000044::::
 true:GlobalCommands:"ShowVectorscope":0x2000056::::
 true:GlobalCommands:"Slip Shot":0x0079::::
-true:GlobalCommands:"SourceClipboard":0x0064::::
-true:GlobalCommands:"SyncedInsert":0x0040::::
+true:GlobalCommands:"SourceClipboard":0x10000021::::
+true:GlobalCommands:"SourceClipboard":0x8000043::::
 true:GlobalCommands:"TileToViewer":0x000D::::
 true:GlobalCommands:"Toggle A1":0x0031::::
 false:GlobalCommands:"Toggle A1"::0x0061:0x0031:T:
+true:GlobalCommands:"Toggle A10":0x0030::::
 true:GlobalCommands:"Toggle A2":0x0032::::
 false:GlobalCommands:"Toggle A2"::0x0061:0x0032:T:
 true:GlobalCommands:"Toggle A3":0x0033::::
@@ -364,6 +603,14 @@ true:GlobalCommands:"Toggle A7":0x0037::::
 false:GlobalCommands:"Toggle A7"::0x0061:0x0037:T:
 true:GlobalCommands:"Toggle A8":0x0038::::
 false:GlobalCommands:"Toggle A8"::0x0061:0x0038:T:
+true:GlobalCommands:"Toggle A9":0x0039::::
+false:GlobalCommands:"Toggle A9"::0x0061:0x0039:T:
+true:GlobalCommands:"Toggle Mute A1":0x0021::::
+true:GlobalCommands:"Toggle Mute A2":0x0040::::
+true:GlobalCommands:"Toggle Mute A3":0x0023::::
+true:GlobalCommands:"Toggle Solo A1":0x2000031::::
+true:GlobalCommands:"Toggle Solo A2":0x2000032::::
+true:GlobalCommands:"Toggle Solo A3":0x2000033::::
 true:GlobalCommands:"Toggle V1":0x800003B::::
 false:GlobalCommands:"Toggle V1"::0x0076:0x0031:T:
 true:GlobalCommands:"Toggle V2":0x800003C::::
@@ -375,22 +622,20 @@ false:GlobalCommands:"Toggle V4"::0x0076:0x0034:T:
 true:GlobalCommands:"Toggle V5":0x800003F::::
 false:GlobalCommands:"Toggle V5"::0x0076:0x0035:T:
 true:GlobalCommands:"ToggleFullScreen":0x001B::::
-true:GlobalCommands:"ToggleFullScreen":0x8000046::::
+true:GlobalCommands:"ToggleFullScreen":0x8000045::::
 true:GlobalCommands:"ToggleSelectAll":0x0060::::
-true:GlobalCommands:"Video Routing Panel":0x100052::::
+true:GlobalCommands:"Video Routing Panel":0x2000052::::
 true:GlobalCommands:"Video Transitions Panel":0x8000042::::
-true:GlobalCommands:"Zoom in":0x002B::::
-true:GlobalCommands:"Zoom in":0x003D::::
-true:GlobalCommands:"Zoom in":0x10003D::::
-true:GlobalCommands:"Zoom out":0x002D::::
-true:GlobalCommands:"Zoom out":0x10002D::::
-true:GlobalCommands:"copyMarkedSection":0x100043::::
-true:GlobalCommands:"edit_track_copy":0x0063::::
+true:GlobalCommands:"Zoom in":0x007A::::
+true:GlobalCommands:"Zoom out":0x005A::::
+true:GlobalCommands:"copyMarkedSection":0x002D::::
+true:GlobalCommands:"copyMarkedSection":0x10000023::::
 false:GlobalCommands:"edit_track_copy":0x400006B::::
 true:GlobalCommands:"edit_track_move":0x0074::::
 false:GlobalCommands:"edit_track_move":0x400006D::::
 true:GlobalCommands:"edit_track_swap":0x0073::::
 false:GlobalCommands:"edit_track_swap":0x4000073::::
+false:GlobalCommands:"fill!":0x4000076::::
 true:GlobalCommands:"nudge10backward":0x900004B::::
 true:GlobalCommands:"nudge10forward":0x900004D::::
 true:GlobalCommands:"playBackwardsHalf"::0x006B:0x006A:T:
@@ -398,13 +643,15 @@ true:GlobalCommands:"playHalf"::0x006B:0x006C:T:
 true:GlobalCommands:"players_locked_set":0x100033::::
 true:GlobalCommands:"players_single_set":0x100031::::
 true:GlobalCommands:"players_twins_set":0x100032::::
-true:GlobalCommands:"pop_out_original":0x006E::::
 false:GlobalCommands:"set_activating_recover_equals_one":0x400007A::::
-true:GlobalCommands:"showAddTracksPanel":0x0061::::
 true:GlobalCommands:"showKeyBindingPanel":0x10004B::::
+true:GlobalCommands:"showKeyBindingPanel":0x200004B::::
 false:LabcalcCanvas_react:0x2000001B:0x001B::::
 false:LabcalcCanvas_react:0x22000041:0x2000041::::
+false:LabcalcCanvas_react:0x22000044:0x2000044::::
+false:LabcalcCanvas_react:0x28000051:0x8000051::::
 false:TextEditingMapper:0x8000052:0x8000052::::
+false:dbview_keyhandle:0x2A000053:0xA000053::::
 false:glob_handle_event_mapper:0x24000072:0x4000072::::
 true:glob_handle_event_mapper:0x24000078:0x100058::::
 true:glob_handle_event_mapper:0x24000078:0x4002248::::
