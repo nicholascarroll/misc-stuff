@@ -5,3 +5,9 @@ My Lightworks NLE keybindings. The keys are laid out like on the console.
 
 *** dng2prores
 Converts CinemaDNG to Prores Proxy (Linux only)
+
+*** nc-qtdev-keybindings.kms
+Emacs keybindingds for QT Creator
+
+** nc-sqldev-keybindings.xml
+Emacs keybindings for SQL Developer
