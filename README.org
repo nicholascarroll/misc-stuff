@@ -1,4 +1,4 @@
-** Miscellaneous stuff
+** Miscellaneous stuff:
 
 *** lwks-nc.prefs
 My Lightworks NLE keybindings. The keys are laid out like on the console.
