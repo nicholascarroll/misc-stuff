@@ -9,10 +9,11 @@ Converts CinemaDNG to Prores Proxy (Linux only)
 *** nc-qtdev-keybindings.kms
 Emacs keybindingds for QT Creator
 
-** nc-sqldev-keybindings.xml
+*** nc-sqldev-keybindings.xml
 Emacs keybindings for SQL Developer
 
-** Oracle SQL Developer Extension for etrm
+*** fnd_descriptions.xml
+**** Oracle SQL Developer Extension for etrm
 etrm is the data dictionary of Oracle E-Business Suite. This adds a similar capability to the Describe window inside SQL Developer.
 To install it, 
 1. Tools/Preferences/Database/User Defined Extensions
