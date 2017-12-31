@@ -13,8 +13,7 @@ Emacs keybindingds for QT Creator
 Emacs keybindings for SQL Developer
 
 *** fnd_descriptions.xml
-**** Oracle SQL Developer Extension for etrm
-etrm is the data dictionary of Oracle E-Business Suite. This adds a similar capability to the Describe window inside SQL Developer.
+Oracle SQL Developer Extension to view the data dictionary of Oracle E-Business Suite, similar to http://etrm.oracle.com. This adds a similar capability to the Describe window inside SQL Developer.
 To install it, 
 1. Tools/Preferences/Database/User Defined Extensions
 2. Add Row: Type = EDITOR, Location = <path to fnd_descriptions.xml>
