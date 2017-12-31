@@ -1,0 +1,70 @@
+<items>
+ <item type="editor" node="TableNode"  vertical="true">
+    <title><![CDATA[FND Columns]]></title>
+      <query>
+         <sql><![CDATA[SELECT c.column_name,
+                              c.description
+                       FROM   applsys.fnd_tables t,
+                              applsys.fnd_columns c
+                       WHERE c.table_id = t.table_id
+                       AND   t.table_name =:OBJECT_NAME
+		       ORDER BY C.column_sequence]]>
+	 </sql>
+      </query>
+ </item>
+  <item type="editor" node="TableNode"  vertical="true">
+    <title><![CDATA[Foreign Keys]]></title>
+      <query>
+         <sql><![CDATA[SELECT table_name "TABLE",
+                   foreign_table,
+                   foreign_key_columns
+                    FROM (
+                        SELECT DISTINCT '1' sorter,
+                                        foreign_key_name,
+					t2.table_name,
+					'SQLDEV:LINK:'||
+					at.owner||
+					':TABLE:'||
+					at.table_name||
+					':oracle.dbtools.raptor.controls.grid.DefaultDrillLink' foreign_table, 
+                                        c.column_name foreign_key_columns
+                        FROM fnd_foreign_keys fk,
+                             fnd_tables tp,
+                             fnd_tables t2,
+                             applsys.fnd_foreign_key_columns fkc,
+                             applsys.fnd_columns c,
+			     all_tables at
+                        WHERE fk.primary_key_table_id = tp.table_id
+                              AND   fkc.foreign_key_id = fk.foreign_key_id
+                              AND   fkc.column_id = c.column_id
+                              AND   fk.table_id = t2.table_id
+      			      AND at.table_name = tp.table_name
+                              AND  t2.table_name =:OBJECT_NAME
+                        UNION
+                        SELECT DISTINCT '2' sorter,
+                                        foreign_key_name,
+					'SQLDEV:LINK:'||
+					at.owner||
+					':TABLE:'||
+					at.table_name||
+					':oracle.dbtools.raptor.controls.grid.DefaultDrillLink' table_name, 
+                                        t2.table_name foreign_table,
+                                        c.column_name foreign_key_columns
+                        FROM fnd_foreign_keys fk,
+                             fnd_tables tp,
+                             fnd_tables t2,
+                             applsys.fnd_foreign_key_columns fkc,
+                             applsys.fnd_columns c,
+			     all_tables at
+                        WHERE fk.primary_key_table_id = t2.table_id
+                              AND   fkc.foreign_key_id = fk.foreign_key_id
+                              AND   fkc.column_id = c.column_id
+                              AND   fk.table_id = tp.table_id
+      			      AND at.table_name = tp.table_name
+                              AND  t2.table_name =:OBJECT_NAME
+                        ORDER BY 1,2)]]>
+	 </sql>
+      </query>
+ </item>
+
+</items>
