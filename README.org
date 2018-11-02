@@ -11,3 +11,6 @@ Emacs keybindingds for QT Creator
 
 *** nc-sqldev-keybindings.xml
 Emacs keybindings for SQL Developer
+
+*** spanish-chars.ahk
+Autohotkey script to ge AltGr functinality for Spanish from non international English keyboard
