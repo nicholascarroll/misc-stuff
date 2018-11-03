@@ -61,11 +61,11 @@ RAlt & o::
 RAlt & u::
     if GetKeyState("Shift","P")
       {
-         Send Ü
+         Send Ú
       }
       else
       {
-         Send ü
+         Send ú
       }
 return
 
