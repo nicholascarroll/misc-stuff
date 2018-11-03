@@ -1,13 +1,6 @@
 
 RAlt & /::
-    if GetKeyState("Shift","P")
-    {
-         Send ¿
-      }
-      else
-      {
-         Send ¿
-      }
+     Send ¿
 return
 
 RAlt & n::
